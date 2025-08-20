@@ -1,0 +1,23 @@
+.container {
+  width: 740px;
+  height: 854px;
+  background: white;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  margin: 20px 42px auto 93px;
+  position: relative;
+  .sneaker {
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    left: 150px;
+    bottom: 80px;
+  }
+  .outfit {
+    width: 691px;
+    height: 631px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

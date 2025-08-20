@@ -1,0 +1,49 @@
+.container {
+  width: 100%;
+  padding: 25px 30px;
+  background: white;
+}
+.container p {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.content {
+  margin-top: 27px;
+}
+.content p {
+  color: var(--Text, #5e5d72);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.round {
+  width: 20px;
+  height: 20px;
+  border-radius: 25px;
+  box-shadow: 0px 2px 6px 1px rgba(0, 0, 0, 0.1);
+}
+
+.colorContent {
+  display: flex;
+  margin-top: 15px;
+}
+
+.rainbow {
+  margin-left: 25px;
+  position: relative;
+  background: conic-gradient(from 180deg at 50% 50%, #ff0b0b 16.1249537766deg, #ffab08 59.2499542236deg, #fff620 113.6249506474deg, #02ff2b 166.1249542236deg, #04d2ff 222.3749542236deg, #2d00e3 272.9999542236deg, #fd00c5 319.8749470711deg, #ff2828 355.4999613762deg);
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+  position: absolute;
+  bottom: 0;
+}/*# sourceMappingURL=customDesignColor.module.css.map */

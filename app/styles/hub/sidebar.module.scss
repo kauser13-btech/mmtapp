@@ -1,0 +1,26 @@
+.sideMenu {
+  width: 112px;
+  height: 100vh;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.1);
+  grid-area: sidebar;
+
+  .wrapper {
+    width: 81px;
+    margin: 30px auto;
+  }
+  .content {
+    width: 81px;
+    height: 76px;
+    background: #f2f4f6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    p {
+      font-family: Montserrat;
+      font-size: 14px;
+      color: #878787;
+      margin-top: 8px;
+    }
+  }
+}

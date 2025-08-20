@@ -1,0 +1,299 @@
+{
+  "posts": [{ "id": 1, "title": "json-server", "author": "typicode" }],
+  "comments": [{ "id": 1, "body": "some comment", "postId": 1 }],
+  "profile": { "name": "typicode" },
+  "recentlyaddedsneakers": [
+    {
+      "id": 1,
+      "image": "/images/sneakers02.png",
+      "name": "Nike Jumping shoes classic"
+    },
+    {
+      "id": 2,
+      "image": "/images/sneakers01.webp",
+      "name": "Nike InfinityRN 4 vintage premium"
+    },
+    {
+      "id": 3,
+      "image": "/images/sneakers02.png",
+      "name": "Nike Jumping shoes classic"
+    },
+    {
+      "id": 4,
+      "image": "/images/sneakers01.webp",
+      "name": "Nike InfinityRN 4 vintage premium"
+    },
+    {
+      "id": 5,
+      "image": "/images/sneakers02.png",
+      "name": "Nike Jumping shoes classic"
+    },
+    {
+      "id": 6,
+      "image": "/images/sneakers01.webp",
+      "name": "Nike InfinityRN 4 vintage premium"
+    },
+    {
+      "id": 7,
+      "image": "/images/sneakers02.png",
+      "name": "Nike Jumping shoes classic"
+    },
+    {
+      "id": 8,
+      "image": "/images/sneakers01.webp",
+      "name": "Nike InfinityRN 4 vintage premium"
+    }
+  ],
+  "bestsellersneakers": [
+    {
+      "id": 1,
+      "image": "/images/sneakers01.webp",
+      "name": "Nike Jumping shoes classic"
+    },
+    {
+      "id": 2,
+      "image": "/images/sneakers01.webp",
+      "name": "Nike InfinityRN 4 vintage premium"
+    },
+    {
+      "id": 3,
+      "image": "/images/sneakers01.webp",
+      "name": "Nike Jumping shoes classic"
+    },
+    {
+      "id": 4,
+      "image": "/images/sneakers01.webp",
+      "name": "Nike InfinityRN 4 vintage premium"
+    },
+    {
+      "id": 5,
+      "image": "/images/sneakers01.webp",
+      "name": "Nike Jumping shoes classic"
+    },
+    {
+      "id": 6,
+      "image": "/images/sneakers01.webp",
+      "name": "Nike InfinityRN 4 vintage premium"
+    },
+    {
+      "id": 7,
+      "image": "/images/sneakers01.webp",
+      "name": "Nike Jumping shoes classic"
+    },
+    {
+      "id": 8,
+      "image": "/images/sneakers01.webp",
+      "name": "Nike InfinityRN 4 vintage premium"
+    }
+  ],
+  "categoryShirt": [
+    {
+      "id": 1,
+      "image": "/images/landing/outfit_category/t-shirt-1.png",
+      "name": "T-Shirt for Nike AIR FORCE PIXEL SE LEOPARD LEMON"
+    },
+    {
+      "id": 2,
+      "image": "/images/landing/outfit_category/t-shirt-1.png",
+      "name": "T-Shirt for Nike AIR FORCE PIXEL SE LEOPARD LEMON"
+    },
+    {
+      "id": 3,
+      "image": "/images/landing/outfit_category/t-shirt-1.png",
+      "name": "T-Shirt for Nike AIR FORCE PIXEL SE LEOPARD LEMON"
+    },
+    {
+      "id": 4,
+      "image": "/images/landing/outfit_category/t-shirt-5.png",
+      "name": "T-Shirt for Nike AIR FORCE PIXEL SE LEOPARD LEMON"
+    },
+    {
+      "id": 5,
+      "image": "/images/landing/outfit_category/t-shirt-4.png",
+      "name": "T-Shirt for Nike AIR FORCE PIXEL SE LEOPARD LEMON"
+    },
+    {
+      "id": 6,
+      "image": "/images/landing/outfit_category/t-shirt-3.png",
+      "name": "T-Shirt for Nike AIR FORCE PIXEL SE LEOPARD LEMON"
+    },
+    {
+      "id": 7,
+      "image": "/images/landing/outfit_category/t-shirt-1.png",
+      "name": "T-Shirt for Nike AIR FORCE PIXEL SE LEOPARD LEMON"
+    },
+    {
+      "id": 8,
+      "image": "/images/landing/outfit_category/t-shirt-1.png",
+      "name": "T-Shirt for Nike AIR FORCE PIXEL SE LEOPARD LEMON"
+    }
+  ],
+  "categorygymbag": [
+    {
+      "id": 1,
+      "image": "/images/landing/outfit_category/gymbag1.png",
+      "name": "T-Shirt for Nike AIR FORCE PIXEL SE LEOPARD LEMON"
+    },
+    {
+      "id": 2,
+      "image": "/images/landing/outfit_category/gymbag1.png",
+      "name": "T-Shirt for Nike AIR FORCE PIXEL SE LEOPARD LEMON"
+    },
+    {
+      "id": 3,
+      "image": "/images/landing/outfit_category/gymbag1.png",
+      "name": "T-Shirt for Nike AIR FORCE PIXEL SE LEOPARD LEMON"
+    },
+    {
+      "id": 4,
+      "image": "/images/landing/outfit_category/gymbag3.png",
+      "name": "T-Shirt for Nike AIR FORCE PIXEL SE LEOPARD LEMON"
+    },
+    {
+      "id": 5,
+      "image": "/images/landing/outfit_category/gymbag3.png",
+      "name": "T-Shirt for Nike AIR FORCE PIXEL SE LEOPARD LEMON"
+    },
+    {
+      "id": 6,
+      "image": "/images/landing/outfit_category/gymbag3.png",
+      "name": "T-Shirt for Nike AIR FORCE PIXEL SE LEOPARD LEMON"
+    },
+    {
+      "id": 7,
+      "image": "/images/landing/outfit_category/gymbag3.png",
+      "name": "T-Shirt for Nike AIR FORCE PIXEL SE LEOPARD LEMON"
+    },
+    {
+      "id": 8,
+      "image": "/images/landing/outfit_category/gymbag3.png",
+      "name": "T-Shirt for Nike AIR FORCE PIXEL SE LEOPARD LEMON"
+    }
+  ],
+  "categoryhoodies": [
+    {
+      "id": 1,
+      "image": "/images/landing/outfit_category/hoodies1.png",
+      "name": "T-Shirt for Nike AIR FORCE PIXEL SE LEOPARD LEMON"
+    },
+    {
+      "id": 2,
+      "image": "/images/landing/outfit_category/hoodies1.png",
+      "name": "T-Shirt for Nike AIR FORCE PIXEL SE LEOPARD LEMON"
+    },
+    {
+      "id": 3,
+      "image": "/images/landing/outfit_category/hoodies1.png",
+      "name": "T-Shirt for Nike AIR FORCE PIXEL SE LEOPARD LEMON"
+    },
+    {
+      "id": 4,
+      "image": "/images/landing/outfit_category/hoodies1.png",
+      "name": "T-Shirt for Nike AIR FORCE PIXEL SE LEOPARD LEMON"
+    },
+    {
+      "id": 5,
+      "image": "/images/landing/outfit_category/hoodies2.png",
+      "name": "T-Shirt for Nike AIR FORCE PIXEL SE LEOPARD LEMON"
+    },
+    {
+      "id": 6,
+      "image": "/images/landing/outfit_category/hoodies2.png",
+      "name": "T-Shirt for Nike AIR FORCE PIXEL SE LEOPARD LEMON"
+    },
+    {
+      "id": 7,
+      "image": "/images/landing/outfit_category/hoodies2.png",
+      "name": "T-Shirt for Nike AIR FORCE PIXEL SE LEOPARD LEMON"
+    },
+    {
+      "id": 8,
+      "image": "/images/landing/outfit_category/hoodies2.png",
+      "name": "T-Shirt for Nike AIR FORCE PIXEL SE LEOPARD LEMON"
+    }
+  ],
+  "categorycroptop": [
+    {
+      "id": 1,
+      "image": "/images/landing/outfit_category/croptop1.png",
+      "name": "T-Shirt for Nike AIR FORCE PIXEL SE LEOPARD LEMON"
+    },
+    {
+      "id": 2,
+      "image": "/images/landing/outfit_category/croptop1.png",
+      "name": "T-Shirt for Nike AIR FORCE PIXEL SE LEOPARD LEMON"
+    },
+    {
+      "id": 3,
+      "image": "/images/landing/outfit_category/croptop1.png",
+      "name": "T-Shirt for Nike AIR FORCE PIXEL SE LEOPARD LEMON"
+    },
+    {
+      "id": 4,
+      "image": "/images/landing/outfit_category/croptop1.png",
+      "name": "T-Shirt for Nike AIR FORCE PIXEL SE LEOPARD LEMON"
+    },
+    {
+      "id": 5,
+      "image": "/images/landing/outfit_category/croptop2.png",
+      "name": "T-Shirt for Nike AIR FORCE PIXEL SE LEOPARD LEMON"
+    },
+    {
+      "id": 6,
+      "image": "/images/landing/outfit_category/croptop2.png",
+      "name": "T-Shirt for Nike AIR FORCE PIXEL SE LEOPARD LEMON"
+    },
+    {
+      "id": 7,
+      "image": "/images/landing/outfit_category/croptop2.png",
+      "name": "T-Shirt for Nike AIR FORCE PIXEL SE LEOPARD LEMON"
+    },
+    {
+      "id": 8,
+      "image": "/images/landing/outfit_category/croptop2.png",
+      "name": "T-Shirt for Nike AIR FORCE PIXEL SE LEOPARD LEMON"
+    }
+  ],
+  "categorysocks": [
+    {
+      "id": 1,
+      "image": "/images/landing/outfit_category/sock1.png",
+      "name": "T-Shirt for Nike AIR FORCE PIXEL SE LEOPARD LEMON"
+    },
+    {
+      "id": 2,
+      "image": "/images/landing/outfit_category/sock1.png",
+      "name": "T-Shirt for Nike AIR FORCE PIXEL SE LEOPARD LEMON"
+    },
+    {
+      "id": 3,
+      "image": "/images/landing/outfit_category/sock1.png",
+      "name": "T-Shirt for Nike AIR FORCE PIXEL SE LEOPARD LEMON"
+    },
+    {
+      "id": 4,
+      "image": "/images/landing/outfit_category/sock1.png",
+      "name": "T-Shirt for Nike AIR FORCE PIXEL SE LEOPARD LEMON"
+    },
+    {
+      "id": 5,
+      "image": "/images/landing/outfit_category/sock1.png",
+      "name": "T-Shirt for Nike AIR FORCE PIXEL SE LEOPARD LEMON"
+    },
+    {
+      "id": 6,
+      "image": "/images/landing/outfit_category/sock1.png",
+      "name": "T-Shirt for Nike AIR FORCE PIXEL SE LEOPARD LEMON"
+    },
+    {
+      "id": 7,
+      "image": "/images/landing/outfit_category/sock1.png",
+      "name": "T-Shirt for Nike AIR FORCE PIXEL SE LEOPARD LEMON"
+    },
+    {
+      "id": 8,
+      "image": "/images/landing/outfit_category/sock1.png",
+      "name": "T-Shirt for Nike AIR FORCE PIXEL SE LEOPARD LEMON"
+    }
+  ]
+}
