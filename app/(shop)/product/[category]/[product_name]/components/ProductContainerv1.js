@@ -9,20 +9,20 @@ import ScrollAnimation from "@/app/components/scrollAnimation/ScrollAnimation";
 
 const ProductContainerv1 = ({
   data,
-  isLoading =false,
+  isLoading = false,
   queryParams,
+  sneaker,
+  design,
 }) => {
-  const size  = 'M';  
+  const size = "M";
   const filterColor = data?.available_colors?.find(
-    (color) => color.is_selected === true
+    (color) => color.is_selected === true,
   );
-
-
 
   return (
     <div className="w-full flex flex-col gap-6s md:gap-6 relative">
       <h1 className="max-md:hidden w-full font-staatliches text-lg lg:text-2xl xl:text-[32px] font-normal text-sub-work-card">
-        {isLoading ? <TailwindLoader height={'h-[4.3rem]'} /> : data.title}
+        {isLoading ? <TailwindLoader height={"h-[4.3rem]"} /> : data.title}
       </h1>
       <div className="w-full overflow-auto hideScroll flex flex-col gap-1 md:justify-start">
         <ProductPricev1
@@ -31,14 +31,14 @@ const ProductContainerv1 = ({
           price={"$59.99"}
           ratingScore={4}
         />
-        
+
         <ProductQuantityV1
-            isShowQuantity={false}
-            data={data}
-            queryParams={queryParams}
-            filterColor={filterColor}
-            size={size}
-            isLoading={isLoading}
+          isShowQuantity={false}
+          data={data}
+          queryParams={queryParams}
+          filterColor={filterColor}
+          size={size}
+          isLoading={isLoading}
         />
       </div>
       <div
@@ -50,16 +50,21 @@ const ProductContainerv1 = ({
           data={data}
           isLoading={isLoading}
           queryParams={queryParams}
+          sneaker={sneaker}
+          design={design}
         />
-         <ProductSizev1
+        <ProductSizev1
           isLoading={isLoading}
-          
           filterColor={filterColor}
           size={size}
         />
-         <Sticker/>
-        <ProductDetailsTab data={data} isLoading={isLoading} customClass="max-lg:hidden" /> 
-        <ScrollAnimation/>
+        <Sticker />
+        <ProductDetailsTab
+          data={data}
+          isLoading={isLoading}
+          customClass="max-lg:hidden"
+        />
+        <ScrollAnimation />
       </div>
     </div>
   );

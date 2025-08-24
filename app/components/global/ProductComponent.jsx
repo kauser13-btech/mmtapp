@@ -29,7 +29,7 @@ const ProductComponent = ({
             key={index}
             // href={`/product?type=${product.type}&color=${product.color}&sneaker=${product.sneaker}&design=${product.design}`}
             // href={`/product?type=${product.type}&color=${product.color}&sneaker=${product.productType=='sneaker'? product.slug:''}&design=${product.productType=='design'? product.slug:''}`}
-            href={type=='search' ? `/collection/?brand=&model=&sub_model_category=&sneaker=${product.productType=='sneaker'? product.slug:''}&product_type=${product.type}&product_colors=&designs=${product.productType=='design'? product.slug:''}`:`/product?type=${product.type}&color=${product.color}&sneaker=${product.sneaker}&design=${product.design}`}
+            href={type=='search' ? `/collection/?brand=&model=&sub_model_category=&sneaker=${product.productType=='sneaker'? product.slug:''}&product_type=${product.type}&product_colors=&designs=${product.productType=='design'? product.slug:''}`:`/product/${product.type}/${product.sneaker}-matching-${product.design}?color=${product.color}`}
             className="flex flex-col items-center gap-2.5 group text-black py-2 group"
           >
             <ImageWithLoader
@@ -73,7 +73,8 @@ const ProductComponent = ({
           <Link
             className="flex flex-col items-center cursor-pointer group xl:gap-2"
             key={type + product.image_url}
-            href={`/product?type=${product.type}&color=${product.color}&sneaker=${product.sneaker}&design=${product.design}`}
+            // href={`/product?type=${product.type}&color=${product.color}&sneaker=${product.sneaker}&design=${product.design}`}
+            href={`/product/${product.type}/${product.sneaker}-matching-${product.design}?color=${product.color}`}
             onClick={(e) =>{
               e.preventDefault();
               outfitOpenModal(product.type, product.color, product.design)

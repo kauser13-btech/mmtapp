@@ -5,14 +5,8 @@ new Link - /product/T-shirt/nike-air-max-scorpion-fk-sesame-womens-sneaker-sesam
 
 ----------------------------------------------------------------------------------
 # Default Product Link
-{base}/product/{design}-{type}-matching-{sneaker}
+{base}/product/type/{sneaker}-matching-{design}
 
-# Product Link for variation 
-{base}/product/{design}-{type}-matching-{sneaker}/?color={color}
-
-
-{base}/product/make-moves-not-excuses-t-shirt-matching-nike-air-max-scorpion-fk-sesame-womens-sneaker-sesamecoconut-milk
-{base}/product/make-moves-not-excuses-t-shirt-matching-nike-air-max-scorpion-fk-sesame-womens-sneaker-sesamecoconut-milk/?color=Berry
 
 ----------------------------------------------------------------------------------
 type    = T-shirt

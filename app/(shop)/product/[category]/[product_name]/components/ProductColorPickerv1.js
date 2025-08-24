@@ -1,9 +1,13 @@
 import TailwindLoader from "@/app/components/global/TailwindLoader";
 import Link from "next/link";
 
-const ProductColorPickerv1 = ({ data, isLoading, queryParams }) => {
-  const { color = "", type, sneaker } = queryParams;
-  console.log("queryParams__", queryParams);
+const ProductColorPickerv1 = ({
+  data,
+  isLoading,
+  queryParams,
+}) => {
+  const { color = "", sneaker, design, type } = queryParams;
+  // console.log("queryParams__", queryParams);
   const objectToQueryParamsModern = (obj) => {
     const params = new URLSearchParams();
     Object.entries(obj).forEach(([key, value]) => {
@@ -11,7 +15,6 @@ const ProductColorPickerv1 = ({ data, isLoading, queryParams }) => {
     });
     return params.toString();
   };
-  console.log( data?.available_colors);
   return (
     <div className="flex flex-col gap-[18px]">
       {isLoading ? (
@@ -24,7 +27,12 @@ const ProductColorPickerv1 = ({ data, isLoading, queryParams }) => {
       <div className="flex gap-3 flex-wrap">
         {!isLoading
           ? data?.available_colors?.map((color) => (
-              <Link href={`/product/${type}/${sneaker}?`+objectToQueryParamsModern({...queryParams, color : color?.color || ''})}>
+              <Link
+                href={
+                  `/product/${type}/${sneaker}-matching-${design}?` +
+                  objectToQueryParamsModern({ color: color?.color || "" })
+                }
+              >
                 <div
                   className={`size-5 md:size-6 xl:size-[30px] border rounded-[5px] cursor-pointer hover:scale-110 duration-200 ${
                     color?.is_selected

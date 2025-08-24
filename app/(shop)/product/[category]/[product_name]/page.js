@@ -32,11 +32,14 @@ async function fetchProduct(queryParams) {
 
 export default async function ProductPage({ params, searchParams }) {
   const { category, product_name } = await params;
-  const { color, design } = await searchParams;
+  const parts = product_name.split("-matching-");  
+  const { color } = await searchParams;
+  const sneaker = parts?.[0] || '';
+  const design = parts?.[1] || '';
   const queryParams = {
     type: category,
     color: color,
-    sneaker: product_name,
+    sneaker: sneaker,
     design: design,
   };
 
@@ -121,6 +124,8 @@ export default async function ProductPage({ params, searchParams }) {
             data={data}
             queryParams={queryParams}
             isLoading={false}
+            sneaker={sneaker}
+            design={design}
           />
           <ProductDetailsTab
             data={data}
